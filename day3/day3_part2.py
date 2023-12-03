@@ -75,7 +75,7 @@ def find_sum_part_numbers():
         gear_ratio *= key
       gear_sum += gear_ratio
       
-  return gear_sum
+  return [sum,gear_sum]
     
 print(find_sum_part_numbers())     
   
